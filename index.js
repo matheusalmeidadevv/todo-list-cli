@@ -21,13 +21,13 @@ function listarTarefas(){
             
         if(marcadas[i] != 0){
 
-            console.log(`[X] ${tarefas[i]}`);
+            console.log(`${i + 1}.[X] ${tarefas[i]}`);
 
         }
 
         else{
             
-            console.log(`[ ] ${tarefas[i]}`);
+            console.log(`${i + 1}.[ ] ${tarefas[i]}`);
 
         }
         
@@ -56,13 +56,10 @@ function excluirTarefa(){
 
     indice = Number(indice);
     //NOTA DE UPDATE: Colocar um try catch aqui, para se caso o usuario escrever um numero de tarefa que não existe
-    for(let i = 0; i < tarefas.length; i++){
-        if(i === indice - 1){
-            tarefas.splice(i, 1);
-            marcadas.splice(i, 1);
-        }
-        
-    }
+
+    tarefas.splice(indice - 1, 1);
+    marcadas.splice(indice - 1, 1);
+
 
 }
 
