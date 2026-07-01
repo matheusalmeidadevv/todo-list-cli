@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-cli",
+  "version": "1.0.0",
+  "description": "Um sistema gerenciador de tarefas em linha de comando (CLI) desenvolvido em JavaScript para consolidação de fundamentos de lógica de programação, manipulação de arrays, objetos e funções estruturadas no ambiente Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusalmeidadevv/todo-list-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matheusalmeidadevv/todo-list-cli/issues"
+  },
+  "homepage": "https://github.com/matheusalmeidadevv/todo-list-cli#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
